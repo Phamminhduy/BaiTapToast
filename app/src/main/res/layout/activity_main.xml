@@ -4,14 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#008000"
     tools:context="com.example.phamm.demotoast.MainActivity">
-
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txtView" />
     <Button
         android:id="@+id/btnToast"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="#f00"
         android:text="Toast DEMO"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp" />
+        android:layout_marginTop="102dp"
+        android:layout_below="@+id/txtView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
